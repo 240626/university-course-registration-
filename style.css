@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f1f5f9;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.registration-container {
+    width: 100%;
+    max-width: 500px;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(11, 15, 255, 0.3);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 16px;
+    color: #475569;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+.courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course-card {
+    background: #f8fafc;
+    border: 1px solid #006ef5;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-info {
+    font-weight: 600;
+    color: #334155;
+}
+
+.course-credits {
+    font-size: 13px;
+    color: #64748b;
+    margin-left: 5px;
+}
+
+.add-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.registered-list {
+    list-style: none;
+    padding: 0;
+}
+
+.registered-list li {
+    background: #f0fdf4;
+    border-left: 4px solid #2ecc71;
+    padding: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.drop-btn {
+    color: #e74c3c;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.total-credits {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    color: #1e293b;
+}
